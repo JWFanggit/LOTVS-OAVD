@@ -1,1 +1,1 @@
-#Pertrain the XCLIP Model
+#Pertrain the CLIP Model
