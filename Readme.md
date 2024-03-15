@@ -1,1 +1,1 @@
-## be coming soon!
+#Pertrain the XCLIP Model
