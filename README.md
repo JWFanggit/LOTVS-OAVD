@@ -5,7 +5,7 @@ a.Download the [pretraining clip model](https://pan.baidu.com/s/1DwBFk1Fr5MHdM25
 b.Download the [MM-AU Benchmark](http://www.lotvsmmau.net)
 
 c.Make data structure and write the path to A_CLIP/configs/A_CLIP.yaml
->[root_path]
+>[The path of MM-AU Dataset]
 >>[OOD_train.txt]
 
 d.```Run T_CLIP.py```
