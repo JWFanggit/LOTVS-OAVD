@@ -4,7 +4,7 @@ a.Download the [pretraining clip model](https://pan.baidu.com/s/1DwBFk1Fr5MHdM25
 
 b.Download the [MM-AU Benchmark](http://www.lotvsmmau.net)
 
-c.Make data structure and write the path to _CLIP/configs/A_CLIP.yaml
+c.Make data structure and write the path to A_CLIP/configs/A_CLIP.yaml
 >[root_path]
 >>[OOD_train.txt]
 
