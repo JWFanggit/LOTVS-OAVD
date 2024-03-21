@@ -1,6 +1,11 @@
 # LOTVS-OAVD
 ## Train A_CLIP
-1.Download the [pretraining clip model](https://pan.baidu.com/s/1DwBFk1Fr5MHdM25eNFRf4g) code:(mkpx)
+a.Download the [pretraining clip model](https://pan.baidu.com/s/1DwBFk1Fr5MHdM25eNFRf4g) code:(mkpx)
 
-2.Download the [MM-AU Benchmark](http://www.lotvsmmau.net)
+b.Download the [MM-AU Benchmark](http://www.lotvsmmau.net)
 
+c.Make data structure
+>[root_path]
+>>[OOD_train.txt]
+
+d.```Run T_CLIP.py```
