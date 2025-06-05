@@ -1,7 +1,7 @@
-pretrained_model_path: "/data/Mamba_T2V/save_OAVD_Mamba1/train_2024-10-02T01-43-36/checkpoint-55000"
+pretrained_model_path: ""
 
 # The folder where your training outputs will be placed.
-output_dir: "/data/Mamba_T2V/save_OAVD_Mamba1"
+output_dir: ""
 
 # You can train multiple datasets at once. They will be joined together for training.
 # Simply remove the line you don't need, or keep them all for mixed training.
@@ -41,7 +41,7 @@ use_text_lora: True
 # Use trained LoRA to continue training with. Only LoRA files trained with this repository will work.
 # LoRA files are saved in the same directory as outputs under 'lora'.
 # To load them, they must have 'unet' and 'text_encoder' in their names.
-lora_path: '/data/Mamba_T2V/save_OAVD_Mamba1/train_2024-10-02T01-43-36/save_lora_55000'
+lora_path: ''
 
 
 unet_lora_modules:
@@ -117,7 +117,7 @@ validation_data:
   height: 256
 
   # Number of inference steps when generating the video.
-  num_inference_steps: 25
+  num_inference_steps: 50
 
   # CFG scale
   guidance_scale: 9
@@ -139,16 +139,16 @@ extra_text_encoder_params: null
   #adam_weight_decay: 0.2
 
 # How many batches to train. Not to be confused with video frames.
-train_batch_size: 1
+train_batch_size: 2
 
 # Maximum number of train steps. Model is saved after training.
-max_train_steps: 10000
+max_train_steps: 100000
 
 # Saves a model every nth step.
 checkpointing_steps: 5000
 
 # How many steps to do for validation if sample_preview is enabled.
-validation_steps: 300000
+validation_steps: 30000
 
 # Seed for validation.
 seed: 64
