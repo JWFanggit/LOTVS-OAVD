@@ -10,3 +10,5 @@ c.Make data structure and write the root_path (The path of dataset) to A_CLIP/co
 >>[OOD_train.txt]
 
 d.```Run T_CLIP.py```
+
+## Train OAVD
