@@ -14,4 +14,5 @@ d.```Run T_CLIP.py```
 e.You can use your trained A_CLIP or directly use our trained [checkpoint](https://pan.baidu.com/s/1FjYzopBbpbfiQtevznDTgA) code:(st5h).
 ## Inference OAVD
 a.Download our [checkpoint](https://pan.baidu.com/s/1FjYzopBbpbfiQtevznDTgA) code:(st5h)
+
 c.```train_and_inference.py```
