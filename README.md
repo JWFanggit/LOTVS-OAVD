@@ -11,7 +11,7 @@ c.Make data structure and write the root_path (The path of dataset) to A_CLIP/co
 
 d.```Run T_CLIP.py```
 
-e.You can use your trained A_CLIP or directly use our trained [checkpoint](https://pan.baidu.com/s/1FjYzopBbpbfiQtevznDTgA) code:(st5h).
+e.You can save the trained A_CLIP model for second-stage diffusion model training, or directly use the checkpoint we provide for inferencing.
 ## Inference OAVD
 a.Download our [checkpoint](https://pan.baidu.com/s/1FjYzopBbpbfiQtevznDTgA) code:(st5h)
 
