@@ -15,4 +15,4 @@ e.You can save the trained A_CLIP model for second-stage diffusion model trainin
 ## Inference OAVD
 a.Download our [checkpoint](https://pan.baidu.com/s/1FjYzopBbpbfiQtevznDTgA) code:(st5h)
 
-c.```train_and_inference.py```
+c.```Run train_and_inference.py```
